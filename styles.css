@@ -1,0 +1,44 @@
+html {
+	color: #000;
+	background: #FFF;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "'Helvetica Neue'",Helvetica,Arial,Verdana,Geneva,sans-serif;
+	color: #cecece;
+}
+
+header {
+	overflow: visible;
+}
+
+nav {
+	background-color: #eee;
+	clear: both;
+}
+
+main {
+	clear: both;
+	background-image: none;
+}
+
+footer {
+	padding-left: 0;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+#title {
+	background-color: #005a9c;
+	width: auto;
+	position: static;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	height: auto;
+}

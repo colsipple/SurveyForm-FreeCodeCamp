@@ -9,10 +9,19 @@
 	<body>
 		<header>
 			<h1 id="title">Skills and Talents Assessment for Nefarious Deeds</h1>
+			<p id="description">This is an <em>evil</em> form to gauge an applicant's propensity for villainy.</p>
 		</header>
 		<nav>
 		</nav>
 		<main>
+			<form id="survey-form">
+			<label for="name" id="name-label">Enter your dastardly moniker: </label>
+			<input type="text" name="name" id="name" placeholder="Urist McEvilguy" required />
+			<label for ="email" id="email-label">Enter a valid <em>evil</em> e-mail: </label>
+			<input type="email" name="email" id="email" placeholder="villain@plot.evil" required />
+			<label for="number" id="number-label">Enter the number of nefarious plots you have right now, if any: </label>
+			<input type="number" name="number" id="number" min="0" max="255" placeholder="Maximum of 255 plots"/>
+			</form>
 		</main>
 		<footer>
 		</footer>

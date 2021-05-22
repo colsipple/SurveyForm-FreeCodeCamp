@@ -42,3 +42,26 @@ h1 {
 	margin: 0;
 	height: auto;
 }
+
+#description {
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	background: 0;
+	border: 0;
+	display: block;
+}
+
+form {
+	margin: 0;
+	color: #666;
+	width: 15em;
+	border:1px #dbe7f0 solid;
+	padding:5px;
+}
+
+input {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	width: 90%;
+}

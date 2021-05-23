@@ -54,7 +54,7 @@ h1 {
 form {
 	margin: 0;
 	color: #666;
-	width: 15em;
+	width: 20%;
 	border:1px #dbe7f0 solid;
 	padding:5px;
 }
@@ -64,4 +64,18 @@ input {
 	font-size: inherit;
 	font-weight: inherit;
 	width: 90%;
+}
+
+select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+#radio {
+	padding-top: 2px;
+}
+
+#radio input {
+	display: block;
 }

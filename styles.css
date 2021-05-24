@@ -54,8 +54,8 @@ h1 {
 form {
 	margin: 0;
 	color: #666;
-	width: 20%;
-	border:1px #dbe7f0 solid;
+	width: 70%;
+	border: 1px #dbe7f0 solid;
 	padding:5px;
 }
 
@@ -77,5 +77,13 @@ select {
 }
 
 #radio input {
-	display: block;
+	width: 10%;
+}
+
+#checkbox input {
+	width: 10%;
+}
+
+textarea {
+	width: 90%;
 }

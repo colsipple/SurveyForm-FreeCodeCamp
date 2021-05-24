@@ -7,6 +7,7 @@
 		<title>Skills and Talents Survey Form</title>
 	</head>
 	<body>
+		<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 		<header>
 			<h1 id="title">Skills and Talents Assessment for Nefarious Deeds</h1>
 			<p id="description">This is an <em>evil</em> form to gauge an applicant's propensity for villainy.</p>
@@ -17,10 +18,13 @@
 			<form id="survey-form">
 			<label for="name" id="name-label">Enter your dastardly moniker: </label>
 			<input type="text" name="name" id="name" placeholder="Urist McEvilguy" required />
+			<br/>
 			<label for="email" id="email-label">Enter a valid <em>evil</em> e-mail: </label>
 			<input type="email" name="email" id="email" placeholder="villain@plot.evil" required />
+			<br/>
 			<label for="number" id="number-label">Enter the number of nefarious plots you have right now, if any: </label>
 			<input type="number" name="number" id="number" min="0" max="255" placeholder="Maximum of 255 plots"/>
+			<br/>
 			<label for="dropdown">Select the type of villain you aspire to be: </label>
 			<select name="villain-type" id="dropdown">
 				<option value="supervillain">Supervillain</option>
@@ -28,11 +32,25 @@
 				<option value="horror">Lovecraftian Horror</option>
 			</select>
 			<div id="radio">
-				<label for="force">I prefer to use brute force.</label>
 				<input type="radio" id="force" name="means" value="force"/>
-				<label for="scheme">I prefer to use evil schemes.</label>
+				<label for="force">I prefer to use brute force.</label>
+				<br/>
 				<input type="radio" id="scheme" name="means" value="scheme"/>
+				<label for="scheme">I prefer to use evil schemes.</label>
 			</div>
+			<div id="checkbox">
+			<input type="checkbox" id="henchmen" name="henchmen" value="henchmen"/>
+			<label for="henchmen">I have one or more evil henchmen.</label>
+			<br/>
+			<input type="checkbox" id="mustache" name="mustache" value="mustache"/>
+			<label for="mustache">I have a twirly mustache.</label>
+			<br/>
+			<input type="checkbox" id="cat" name="cat" value="cat"/>
+			<label for="cat">I have an evil cat.</label>
+			</div>
+			<label for="monologue">What is your evil monologue?</label>
+			<textarea id="monologue" name="monologue"></textarea>
+			<input type="submit" value="Send Application" id="submit"/>
 			</form>
 		</main>
 		<footer>
